@@ -10,11 +10,9 @@ import java.time.LocalDateTime;
 @Service
 public class EmailService {
 
-    private final JavaMailSender mailSender;
     private final EmailRepository emailRepository;
 
     public EmailService(JavaMailSender mailSender, EmailRepository emailRepository) {
-        this.mailSender = mailSender;
         this.emailRepository = emailRepository;
     }
 
