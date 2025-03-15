@@ -1,8 +1,6 @@
 package com.br.emailservice.emailservice.rabbitmq;
 
 import com.br.emailservice.emailservice.service.EmailService;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 import java.util.Map;
